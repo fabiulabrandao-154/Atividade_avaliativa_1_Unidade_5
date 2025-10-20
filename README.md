@@ -2,7 +2,7 @@ Bom Dia, Professor;
 
 Está na pasta: src/componentes/cadastrapessoa/EnderecoForm.jsx
 -----------------------------------------------------------------
-// Função para buscar o endereço via CEP
+
   const setCep = async (cep) => {
     try {
       const cleanCep = cep.replace(/\D/g, '');
